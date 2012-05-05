@@ -73,7 +73,6 @@ int thread_3 = 3;
 int main(){
 	// Initialize stacks
 	stack_1 = malloc(sizeof(stack_size));
-	stack_2 = malloc(sizeof(stack_size));
 
 	// Initiate threads
 	xenon_thread_startup();
