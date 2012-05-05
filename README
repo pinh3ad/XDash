@@ -1,0 +1,15 @@
+This is the new home for XDash developments. Over the past several months, since my skill as a programmer has improved greatly, I have been able to complete a lot of the tools which I once wanted to incorporate into XDash. Currently, such tools live in my private local repository while I test and debug them, but they incldude:
+
+NAND Reading/writing
+Complete serial control
+Enabling/disabling debugging (Serial, USB, or TFTP logging)
+Verbose debugging support (Based on a user specified config file)
+Memory dump support (Included in verbose debugging if specified)
+Elf launching (Including Linux binaries)
+
+As I test and verify these tools, they'll be incorporated one at a time into XDash. Since graphical libraries have become more readily available and easy to setup than before, XDash will also have a graphical user interface (Most likely based on libPNG). 
+
+For right now, this repository will only hold the old XDash code. Over the coming week I will start to re-design it from nearly the ground up, ans start importing utilities from my local repository.
+
+UNIX
+
