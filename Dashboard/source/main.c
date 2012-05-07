@@ -14,17 +14,8 @@
 \  LibXenon.org
 */
 
-// Standard C includes
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
-
-// Xenon includes
-#include <elf/elf.h>
-#include <input/input.h>
-#include <xenon_soc/xenon_power.h>
-#include <xenon_smc/xenon_smc.h>
-#include <xenon_soc/xenon_power.h>
+// Include the respective include file
+#include "main.h"
 
 // Make available 100MB for thread stacks
 int stack_size = 0x6400000;
@@ -82,7 +73,7 @@ int main(){
 	xenon_run_thread_task(thread_1, stack_1, verificationLoader());
 
 	// Start a thread to execute GUI.
-	// TODO: Not yet created.
+	// xenon_run_thread_task(thread_2, stack_2, dashboard());
 
 	return 0;
 }
