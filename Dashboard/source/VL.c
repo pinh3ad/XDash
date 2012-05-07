@@ -8,16 +8,24 @@
 
 #include "VL.h"
 
-// TODO: Detect errors in initializations, let user know about them.
 void verificationLoader(){
 	// Wake up all CPU cores
 	xenon_make_it_faster(XENON_SPEED_FULL);
 
 	// Start the text console
 	console_init();
+	if(console_is_initialized() != true){
+		xenon_smc_set_led(4, 2);
+		BP;
+	}
 
 	// Start Xenos
 	xenos_init(VIDEO_MODE_AUTO);
+	if(xenos_is_initialized() != true){
+		PRINT_ERR("!! Xenos initialization FAILED.\n");	
+		xenon_smc_set_led(4, 2);
+		BP;
+	}
 
 	// Start the network
 	network_init();
@@ -29,6 +37,12 @@ void verificationLoader(){
 
 	// Start SFCX and XConfig
 	sfcx_init();
+	if(SFCX_INITIALIZED != true){
+		PRINT_ERR("!! SFCX initialization failed.\n");		
+		xenon_smc_set_led(4, 2);
+		BP;
+	}
+
 	xenon_config_init();
 }
 

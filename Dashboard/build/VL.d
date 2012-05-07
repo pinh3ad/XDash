@@ -3,10 +3,11 @@ VL.o: /home/tyler/Desktop/XDash/Dashboard/source/VL.c \
  /usr/local/xenon/usr/include/debug.h \
  /usr/local/xenon/usr/include/xenon_uart/xenon_uart.h \
  /usr/local/xenon/usr/include/console/console.h \
+ /usr/local/xenon/usr/include/xetypes.h \
  /usr/local/xenon/usr/include/network/network.h \
+ /usr/local/xenon/usr/include/lwipopts.h \
  /usr/local/xenon/usr/include/lwip/netif.h \
  /usr/local/xenon/usr/include/lwip/opt.h \
- /usr/local/xenon/usr/include/lwipopts.h \
  /usr/local/xenon/usr/include/lwip/debug.h \
  /usr/local/xenon/usr/include/lwip/arch.h \
  /usr/local/xenon/usr/include/arch/cc.h \
@@ -19,7 +20,6 @@ VL.o: /home/tyler/Desktop/XDash/Dashboard/source/VL.c \
  /usr/local/xenon/usr/include/lwip/ip.h \
  /usr/local/xenon/usr/include/xenon_nand/xenon_sfcx.h \
  /usr/local/xenon/usr/include/xenon_nand/xenon_config.h \
- /usr/local/xenon/usr/include/xetypes.h \
  /usr/local/xenon/usr/include/usb/usbmain.h \
  /usr/local/xenon/usr/include/xenon_soc/xenon_power.h \
  /usr/local/xenon/usr/include/xenos/xenos.h \
@@ -33,13 +33,15 @@ VL.o: /home/tyler/Desktop/XDash/Dashboard/source/VL.c \
 
 /usr/local/xenon/usr/include/console/console.h:
 
+/usr/local/xenon/usr/include/xetypes.h:
+
 /usr/local/xenon/usr/include/network/network.h:
+
+/usr/local/xenon/usr/include/lwipopts.h:
 
 /usr/local/xenon/usr/include/lwip/netif.h:
 
 /usr/local/xenon/usr/include/lwip/opt.h:
-
-/usr/local/xenon/usr/include/lwipopts.h:
 
 /usr/local/xenon/usr/include/lwip/debug.h:
 
@@ -64,8 +66,6 @@ VL.o: /home/tyler/Desktop/XDash/Dashboard/source/VL.c \
 /usr/local/xenon/usr/include/xenon_nand/xenon_sfcx.h:
 
 /usr/local/xenon/usr/include/xenon_nand/xenon_config.h:
-
-/usr/local/xenon/usr/include/xetypes.h:
 
 /usr/local/xenon/usr/include/usb/usbmain.h:
 
