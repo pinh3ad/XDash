@@ -8,10 +8,10 @@
 
 #include "VL.h"
 
-/* GPU initialization struct. Static type, so dashboard.c 
-   can use it to do rendering later on.
-*/
+// GPU structs and whatnot. Static type declared so they can be used in dashboard.c
+// when rendering the menu.
 static struct XenosDevice *xe;
+// TODO: Add surface to be rendered (Image)
 
 void verificationLoader(){
 	// Wake up all CPU cores

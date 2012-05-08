@@ -23,6 +23,8 @@ VL.o: /home/tyler/Desktop/XDash/Dashboard/source/VL.c \
  /usr/local/xenon/usr/include/usb/usbmain.h \
  /usr/local/xenon/usr/include/xenon_soc/xenon_power.h \
  /usr/local/xenon/usr/include/xenos/xenos.h \
+ /usr/local/xenon/usr/include/xenos/xe.h \
+ /usr/local/xenon/usr/include/xenos/edram.h \
  /usr/local/xenon/usr/include/xenon_smc/xenon_smc.h
 
 /home/tyler/Desktop/XDash/Dashboard/source/VL.h:
@@ -72,5 +74,9 @@ VL.o: /home/tyler/Desktop/XDash/Dashboard/source/VL.c \
 /usr/local/xenon/usr/include/xenon_soc/xenon_power.h:
 
 /usr/local/xenon/usr/include/xenos/xenos.h:
+
+/usr/local/xenon/usr/include/xenos/xe.h:
+
+/usr/local/xenon/usr/include/xenos/edram.h:
 
 /usr/local/xenon/usr/include/xenon_smc/xenon_smc.h:
